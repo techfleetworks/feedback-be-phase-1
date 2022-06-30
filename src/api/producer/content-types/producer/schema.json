@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "producers",
+  "info": {
+    "singularName": "producer",
+    "pluralName": "producers",
+    "displayName": "producer"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email"
+    },
+    "slug": {
+      "type": "uid"
+    }
+  }
+}
