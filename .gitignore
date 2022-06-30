@@ -352,3 +352,4 @@ MigrationBackup/
 .env 
 .env.example
 package-lock.json
+/config/env
