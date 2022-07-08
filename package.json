@@ -16,6 +16,7 @@
     "@strapi/strapi": "4.2.2",
     "better-sqlite3": "7.4.6",
     "graphql": "^16.5.0",
+    "koa": "^2.13.4",
     "pg": "^8.7.3",
     "pg-connection-string": "^2.5.0"
   },
@@ -29,5 +30,8 @@
     "node": ">=12.x.x <=16.x.x",
     "npm": ">=6.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "install-peers": "^1.0.4"
+  }
 }
