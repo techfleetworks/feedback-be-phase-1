@@ -350,6 +350,4 @@ MigrationBackup/
 .ionide/
 
 .env 
-.env.example
 package-lock.json
-/config/env
