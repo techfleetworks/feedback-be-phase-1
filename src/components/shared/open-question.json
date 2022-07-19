@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_open_questions",
+  "info": {
+    "displayName": "Open Question",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "string",
+      "required": true
+    },
+    "answer": {
+      "type": "text"
+    }
+  }
+}

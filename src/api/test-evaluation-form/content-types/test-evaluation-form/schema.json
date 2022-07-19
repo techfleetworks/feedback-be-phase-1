@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "test_evaluation_forms",
+  "info": {
+    "singularName": "test-evaluation-form",
+    "pluralName": "test-evaluation-forms",
+    "displayName": "Test Evaluation Form"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "question1": {
+      "type": "text",
+      "required": true
+    },
+    "question2": {
+      "type": "boolean",
+      "required": true
+    }
+  }
+}

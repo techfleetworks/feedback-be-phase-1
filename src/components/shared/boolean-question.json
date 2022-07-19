@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_boolean_questions",
+  "info": {
+    "displayName": "Boolean Question",
+    "icon": "question"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "answer": {
+      "type": "boolean"
+    }
+  }
+}
