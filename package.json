@@ -17,6 +17,7 @@
     "better-sqlite3": "7.4.6",
     "graphql": "^16.5.0",
     "install-peers": "^1.0.4",
+    "nanoid": "^4.0.0",
     "pg": "^8.7.3",
     "pg-connection-string": "^2.5.0"
   },
