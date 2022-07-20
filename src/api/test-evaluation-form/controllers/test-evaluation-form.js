@@ -5,7 +5,7 @@
  */
 
 const { createCoreController } = require("@strapi/strapi").factories;
-const { nanoid } = require("nanoid");
+const { nanoid } = import("nanoid");
 
 module.exports = createCoreController(
   "api::test-evaluation-form.test-evaluation-form",
