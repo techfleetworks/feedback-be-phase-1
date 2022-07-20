@@ -4,7 +4,8 @@
   "info": {
     "singularName": "test-evaluation-form",
     "pluralName": "test-evaluation-forms",
-    "displayName": "Test Evaluation Form"
+    "displayName": "Test Evaluation Form",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,6 +18,10 @@
     },
     "question2": {
       "type": "boolean",
+      "required": true
+    },
+    "formID": {
+      "type": "uid",
       "required": true
     }
   }
