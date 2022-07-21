@@ -16,12 +16,12 @@
       "type": "text",
       "required": true
     },
-    "question2": {
-      "type": "boolean",
-      "required": true
-    },
     "formID": {
       "type": "uid",
+      "required": true
+    },
+    "question2": {
+      "type": "string",
       "required": true
     }
   }
