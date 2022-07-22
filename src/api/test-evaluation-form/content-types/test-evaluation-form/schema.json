@@ -8,16 +8,12 @@
     "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
     "question1": {
       "type": "text",
-      "required": true
-    },
-    "formID": {
-      "type": "uid",
       "required": true
     },
     "question2": {
