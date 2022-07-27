@@ -19,6 +19,14 @@
     "question2": {
       "type": "string",
       "required": true
+    },
+    "question3": {
+      "type": "enumeration",
+      "enum": [
+        "Yes",
+        "No"
+      ],
+      "required": true
     }
   }
 }
