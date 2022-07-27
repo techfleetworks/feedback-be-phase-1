@@ -4,19 +4,21 @@
   "info": {
     "singularName": "evaluation-form-cheese",
     "pluralName": "evaluation-form-cheeses",
-    "displayName": "Evaluation Form Cheese"
+    "displayName": "Evaluation Form Cheese",
+    "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
-    "question1": {
-      "type": "boolean",
+    "name": {
+      "type": "string",
       "required": true
     },
     "question1b": {
-      "type": "string"
+      "type": "text",
+      "required": false
     },
     "question2": {
       "type": "text",
@@ -24,18 +26,6 @@
     },
     "question3": {
       "type": "text",
-      "required": true
-    },
-    "question4": {
-      "type": "boolean",
-      "required": true
-    },
-    "question5": {
-      "type": "boolean",
-      "required": true
-    },
-    "question6": {
-      "type": "boolean",
       "required": true
     },
     "question6b": {
@@ -58,9 +48,40 @@
       "type": "text",
       "required": true
     },
+    "question1": {
+      "type": "enumeration",
+      "enum": [
+        "Yes",
+        "No"
+      ]
+    },
+    "question4": {
+      "type": "enumeration",
+      "enum": [
+        "Yes",
+        "No"
+      ]
+    },
+    "question6": {
+      "type": "enumeration",
+      "enum": [
+        "Yes",
+        "No"
+      ]
+    },
+    "question5": {
+      "type": "enumeration",
+      "enum": [
+        "Yes",
+        "No"
+      ]
+    },
     "question11": {
-      "type": "boolean",
-      "required": true
+      "type": "enumeration",
+      "enum": [
+        "Yes",
+        "No"
+      ]
     },
     "question11b": {
       "type": "text"
@@ -70,8 +91,8 @@
         "images"
       ],
       "type": "media",
-      "multiple": false,
-      "required": true
+      "multiple": true,
+      "required": false
     },
     "question13": {
       "type": "text",
@@ -86,28 +107,40 @@
       "required": true
     },
     "question16": {
-      "type": "text",
-      "required": true
+      "type": "text"
     },
     "question17": {
-      "type": "boolean",
+      "type": "enumeration",
+      "enum": [
+        "Yes ",
+        "No"
+      ],
       "required": true
     },
     "question17b": {
       "type": "text"
     },
     "question18": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "question19": {
-      "type": "boolean",
+      "type": "enumeration",
+      "enum": [
+        "Yes",
+        "No"
+      ],
       "required": true
     },
     "question19b": {
       "type": "text"
     },
     "question20": {
-      "type": "boolean",
+      "type": "enumeration",
+      "enum": [
+        "Yes",
+        "No"
+      ],
       "required": true
     },
     "question21": {
@@ -115,11 +148,113 @@
       "required": true
     },
     "question22": {
-      "type": "boolean",
+      "type": "enumeration",
+      "enum": [
+        "Yes",
+        "No"
+      ],
       "required": true
     },
     "question22b": {
       "type": "text"
+    },
+    "question23": {
+      "type": "text",
+      "required": true
+    },
+    "question24": {
+      "type": "text",
+      "required": true
+    },
+    "question25": {
+      "type": "text",
+      "required": true
+    },
+    "question26": {
+      "type": "text",
+      "required": true
+    },
+    "question27": {
+      "type": "string"
+    },
+    "question28": {
+      "type": "text",
+      "required": true
+    },
+    "question29": {
+      "type": "enumeration",
+      "enum": [
+        "Yes",
+        "No"
+      ],
+      "required": true
+    },
+    "question29b": {
+      "type": "text"
+    },
+    "question30": {
+      "type": "text",
+      "required": true
+    },
+    "question31": {
+      "type": "text",
+      "required": true
+    },
+    "question32": {
+      "type": "text",
+      "required": true
+    },
+    "question33": {
+      "type": "text",
+      "required": true
+    },
+    "question34": {
+      "type": "text",
+      "required": true
+    },
+    "question35": {
+      "type": "text",
+      "required": true
+    },
+    "question36": {
+      "type": "text",
+      "required": true
+    },
+    "question37": {
+      "type": "text",
+      "required": true
+    },
+    "question38": {
+      "type": "string",
+      "required": true
+    },
+    "question39": {
+      "type": "text",
+      "required": true
+    },
+    "question40": {
+      "type": "text",
+      "required": true
+    },
+    "question41": {
+      "type": "text",
+      "required": true
+    },
+    "question42": {
+      "type": "text",
+      "required": true
+    },
+    "question43": {
+      "type": "string",
+      "required": true
+    },
+    "question44": {
+      "type": "string",
+      "required": true
+    },
+    "question45": {
+      "type": "text",
+      "required": true
     }
   }
 }
