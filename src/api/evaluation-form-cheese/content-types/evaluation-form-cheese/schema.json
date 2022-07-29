@@ -86,14 +86,6 @@
     "question11b": {
       "type": "text"
     },
-    "question12": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": true,
-      "required": false
-    },
     "question13": {
       "type": "text",
       "required": true
@@ -174,23 +166,9 @@
       "type": "text",
       "required": true
     },
-    "question27": {
-      "type": "string"
-    },
     "question28": {
       "type": "text",
       "required": true
-    },
-    "question29": {
-      "type": "enumeration",
-      "enum": [
-        "Yes",
-        "No"
-      ],
-      "required": true
-    },
-    "question29b": {
-      "type": "text"
     },
     "question30": {
       "type": "text",
