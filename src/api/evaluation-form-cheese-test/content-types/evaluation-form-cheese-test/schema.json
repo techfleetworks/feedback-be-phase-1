@@ -4,7 +4,8 @@
   "info": {
     "singularName": "evaluation-form-cheese-test",
     "pluralName": "evaluation-form-cheese-tests",
-    "displayName": "Evaluation Form Cheese Test"
+    "displayName": "Evaluation Form Cheese Test",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -73,6 +74,73 @@
     },
     "question10": {
       "type": "text",
+      "required": true
+    },
+    "question6b": {
+      "type": "text",
+      "required": false
+    },
+    "question11": {
+      "type": "enumeration",
+      "enum": [
+        "Yes",
+        "No"
+      ],
+      "required": true
+    },
+    "question11b": {
+      "type": "text"
+    },
+    "question13": {
+      "type": "string",
+      "required": true
+    },
+    "question14": {
+      "type": "text",
+      "required": true
+    },
+    "question15": {
+      "type": "text",
+      "required": true
+    },
+    "question16": {
+      "type": "text",
+      "required": true
+    },
+    "question17": {
+      "type": "enumeration",
+      "enum": [
+        "Yes",
+        "No"
+      ],
+      "required": true
+    },
+    "question17b": {
+      "type": "text",
+      "required": false
+    },
+    "question18": {
+      "type": "text",
+      "required": true
+    },
+    "question19": {
+      "type": "enumeration",
+      "enum": [
+        "Yes",
+        "No"
+      ],
+      "required": true
+    },
+    "question19b": {
+      "type": "text",
+      "required": false
+    },
+    "question20": {
+      "type": "enumeration",
+      "enum": [
+        "Yes",
+        "No"
+      ],
       "required": true
     }
   }
