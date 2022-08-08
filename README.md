@@ -34,9 +34,7 @@ yarn install
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Open [http://localhost:1337](http://localhost:1337) with your browser to see the the Strapi dashboard. Click [here](https://strapi.io/docs) to learn more about how to use Strapi.
 
 ## Dependencies & Tools Used 
 - [Strapi CMS](https://strapi.io/) - Strapi allows for easy future content management and maintenance by non-devs.
